@@ -1,6 +1,2 @@
-User ID,User Name,Total Time Clocked In,Abnormalities
-1,Carol,31.10 hours,"""Unmatched 'IN' at 2024-11-03 09:00:00"""
-2,Alice,34.33 hours,"""Unmatched 'IN' at 2024-11-03 08:00:00"""
-3,Bob,18.50 hours,"""Unmatched 'OUT' at 2024-11-03 18:25:00"""
-4,David,27.25 hours,""""""
-5,Eve,27.25 hours,""""""
+User ID,User Name,Total Time Clocked In,Total HH:MM,Abnormalities
+1,Carol,0.37 hours,00:22,""""""
