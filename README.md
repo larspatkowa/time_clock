@@ -1,22 +1,24 @@
 # Time Clock Calculator
 
 ## Overview
-Simple GUI time clock calculator using Tkinter and readings from a CSV file
+Simple GUI time clock calculator using Tkinter and readings from a CSV, XLS, or XLSV file
 
 ## Features
-- **File Selection**: User can browse files to select input CSV file
+- **File Selection**: User can browse files to select input CSV, XLS, or XLSV file
 - **Time Calculation**: Calculates total time clocked in for each user.
 - **Abnormality Detection**: The script identifies and reports any abnormalities in the time clock records, such as unmatched 'IN' or 'OUT' entries.
 
 ## Usage
-To use the time clock calculator, run the script and follow the prompts to select your CSV file.
+To use the time clock calculator, run the script and follow the prompts to select your file.
 
 ## Dependencies
 - Python 3.x
 - Tkinter (included with standard Python distribution)
+- Pandas
+- openpyxl
 
 ## Example Input CSV File Format
-The Input CSV file should have the following columns:
+The Input file should have the following columns:
 - `User ID`
 - `User Name`
 - `Check Time`
